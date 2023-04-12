@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -40,61 +41,72 @@ const Contact = () => {
               className="my-4 p-1 rounded w-full"
             ></textarea>
           </div>
-        </div>
-      </div>
-
-      {/* <div className="">
-        <div class="  py-6 mx-auto   ">
-          <div class="lg p-8 flex flex-col md:mr-auto w-full mt-10 ">
-            <div className="flex justify-center items-center flex-col container">
-              <div className=" mb-3 ">
-                <h2 class="text-white  text-lg mb-2 font-medium  title-font text-center">
-                    Get an Appointment
-                </h2>
-                <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
-              </div>
-
-              <div class="mb-4">
-                <input
-                  type="text"
-                  id="name"
-                  name="full-name"
-                  class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div class="relative mb-4">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  placeholder="Email"
-                />
-              </div>
-              <div class="relative mb-4">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  placeholder="Phone Number"
-                />
-              </div>
-              <div class="mb-4">
-                <textarea
-                  id="message"
-                  name="message"
-                  class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                  placeholder="Your message"
-                ></textarea>
-              </div>
-              <button className="bg-[#d09a58] w-full px-8 py-1">Send Message</button>
-            </div>
+          <div>
+            <button className="bg-[#d09a58] w-full px-[120px] py-1 text-white">
+              Send Message
+            </button>
+          </div>
+          <div className="flex text-white pt-4 justify-center">
+            <FaTwitter size={24} className="mx-4" />
+            <FaFacebook size={24} className="mx-4" />
+            <FaInstagram size={24} className="mx-4" />
+            <FaLinkedin size={24} />
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
+
+    //    <div className="">
+    //     <div class="  py-6 mx-auto   ">
+    //       <div class="lg p-8 flex flex-col md:mr-auto w-full mt-10 ">
+    //         <div className="flex justify-center items-center flex-col container">
+    //           <div className=" mb-3 ">
+    //             <h2 class="text-white  text-lg mb-2 font-medium  title-font text-center">
+    //                 Get an Appointment
+    //             </h2>
+    //             <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
+    //           </div>
+
+    //           <div class="mb-4">
+    //             <input
+    //               type="text"
+    //               id="name"
+    //               name="full-name"
+    //               class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+    //               placeholder="Full Name"
+    //             />
+    //           </div>
+    //           <div class="relative mb-4">
+    //             <input
+    //               type="email"
+    //               id="email"
+    //               name="email"
+    //               class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+    //               placeholder="Email"
+    //             />
+    //           </div>
+    //           <div class="relative mb-4">
+    //             <input
+    //               type="email"
+    //               id="email"
+    //               name="email"
+    //               class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+    //               placeholder="Phone Number"
+    //             />
+    //           </div>
+    //           <div class="mb-4">
+    //             <textarea
+    //               id="message"
+    //               name="message"
+    //               class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+    //               placeholder="Your message"
+    //             ></textarea>
+    //           </div>
+
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div> */}
   );
 };
 
