@@ -24,7 +24,7 @@ const Navbar = () => {
 
   ];
   return (
-    <div className=" bg-[#e0c8ab]   mx-auto lg:px-[9rem] sm:px-[6rem] w-screen h-20 z-20 text-[292a4a] ">
+    <div className=" bg-[#e0c8ab]   mx-auto lg:px-[9rem] sm:px-[6rem] w-screen h-20 z-80 text-[292a4a] ">
       <div className="px-3 flex items-center justify-between w-full h-full">
         <div className="flex items-center">
           <div>
@@ -66,7 +66,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "shadow-xl fixed left-0 top-0 w-4/5 bg-gray-900 text-white h-full p-10 ease-in duration-300"
+              ? "shadow-xl fixed left-0 top-0 w-4/5 bg-[#383956] text-white h-full p-10 ease-in duration-300"
               : "fixed top-0 left-[-100%] p-10 duration-300 ease-in h-full "
           }
         >
@@ -89,30 +89,23 @@ const Navbar = () => {
           <div className=">">
             <ul className="pt-7 pb-6">
               <a href="#Home">
-                <li className="p-4  text-xl  hover:bg-gradient-to-r hover:from-blue-500 hover:to-red-500">
+                <li className="p-4  text-xl  hover:bg-gradient-to-r hover:from-[#d09a58] hover:to-[#ebc597]">
                   Home
                 </li>
               </a>
               <a href="#Transfers">
-                <li className="p-4  text-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-red-500">
-                  Transfers
+                <li className="p-4  text-xl  hover:bg-gradient-to-r hover:from-[#d09a58] hover:to-[#ebc597]">
+                  What We Do
                 </li>
               </a>
               <a href="#blog">
-                {" "}
-                <li className="p-4  text-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-red-500">
-                  Blogs
+            
+                <li className="p-4  text-xl  hover:bg-gradient-to-r hover:from-[#d09a58] hover:to-[#ebc597]">
+                Our Team
                 </li>
               </a>
             </ul>
-            <div className=" ml-4 ">
-              <button
-                type="button"
-                className="py-2 w-full bg-blue-500 hover:bg-blue-800 rounded-lg"
-              >
-                Register
-              </button>
-            </div>
+            
           </div>
         </div>
       </div>
