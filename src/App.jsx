@@ -6,6 +6,9 @@ import Layout from "./components/Layout";
 import Hero from "./components/Hero";
 import Appointment from "./components/Appointment";
 import Do from "./components/Do";
+import Attorney from "./components/Attorney";
+import NewsLetter from "./components/NewsLetter";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Hero />
         <Do/>
       </Layout>
+      <Attorney/>
+      <NewsLetter/>
+      <Contact/>
     </div>
   );
 }

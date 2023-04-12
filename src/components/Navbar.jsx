@@ -71,11 +71,17 @@ const Navbar = () => {
           }
         >
           <div className="flex w-full items-center justify-between text-white">
-            <h3 className="text-2xl font-semibold">
-              <span className="text-pink-700 font-bold">CULERS</span>
-              <span className="font-light text-blue-700">CITY</span>{" "}
-            </h3>
-
+            <div className="flex items-center">
+              <div>
+                <img src={logo} alt="logo" className="h-10 w-10" />
+              </div>
+              <h4 className="text-xl p-4 font-semibold">
+                <span className=" font-bold">
+                  {""}
+                  THE LAWYERS
+                </span>
+              </h4>
+            </div>
             <div onClick={() => setNav(false)} className="p-3 cursor-pointer">
               <FaTimes size={30} />
             </div>
